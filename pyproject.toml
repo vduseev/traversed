@@ -1,0 +1,14 @@
+[project]
+name = "traversed"
+version = "0.0.1"
+description = "Traverse any Python object to deep clone or serialize it using DFS algorithm"
+readme = "README.md"
+authors = [
+    { name = "vduseev", email = "vagiz@duseev.com" }
+]
+requires-python = ">=3.8.0"
+dependencies = []
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
